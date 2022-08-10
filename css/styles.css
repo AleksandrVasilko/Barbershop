@@ -12,6 +12,19 @@ body{
     font-family: 'Open sans', sans-serif;
 }
 
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
 .list{
     list-style: none;
 }
@@ -80,6 +93,10 @@ body{
     color: var(--second-title-color)
 }
 
+.section-title-light{
+    color: var(--primary-title-color)
+}
+
 /* --------------------header-------------------- */
 
 .header{
@@ -138,9 +155,113 @@ body{
 /* --------------------about-------------------- */
 
 .about-text{
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.86;
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
+}
+
+/* --------------------prices-------------------- */
+
+.prices{
+    background-color: var(--second-text-color);
+}
+
+.prices-item-text{
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+    color: var(--third-text-color);
+}
+
+/* --------------------reasons-------------------- */
+
+.reasons-count{
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1,36;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: var(--second-text-color-color);
+}
+
+.reasons-item-text{
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    text-align: center;
+    color:  var(--second-text-color-color);
+}
+
+/* --------------------masters-------------------- */
+
+.masters-item-title{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.39;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--second-title-color);
+}
+
+.masters-item-text{
+    font-size: 14px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--accent-color);
+}
+
+/* --------------------gallery-------------------- */
+
+/* --------------------online-------------------- */
+
+.online{
+    background-color: var(--second-title-color);
+}
+
+/* --------------------contacts-------------------- */
+
+.contacts{
+    background-color: var(--second-title-color);
+}
+
+.contacts-address{
+    font-style: inherit;
+}
+
+.contacts-link{
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+    color: var(--third-text-color);
+}
+
+.contacts-pre-title{
+    color: #ffffff;
+}
+
+.contacts-text-time{
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+    color: var(--third-text-color);
+}
+
+/* --------------------footer-------------------- */
+
+.footer-copy{
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.2em;
+    color: var(--third-text-color);
+}
+
+.footer-link{
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.2em;
+    color: var(--second-title-color);
 }
